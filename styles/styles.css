@@ -1,0 +1,157 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+.header,.footer {
+    display:flex;
+    background-color: #DADED4;
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    padding:0px;
+}
+
+.top-nav {
+    display:flex;
+    flex-direction: row;    
+    gap: 24px;
+    list-style-type: none;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #3C403D;
+}
+
+.header-right ul {
+    display:flex;
+    flex-direction: row;    
+    gap: 24px;
+    list-style-type: none;
+}
+
+
+
+.container {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+    flex-direction: column;
+    height: auto;
+}
+
+.content-1 {
+    background-color: #DADED4;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+}
+
+.content-1-left {
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:24px;
+    max-width: 768px;
+}
+
+.content-1-left .button {
+    margin: 24px;
+}
+
+.content-1-right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+}
+
+.content-1 img {
+    border: 5px solid #39603D;
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.content-2 {
+    background-color: #39603D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #DADED4;
+}
+
+.content-2-images {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    flex-basis: 120px;
+}
+
+.content-2-img {
+    border-radius: 50%;
+    border: 5px solid #DADED4;
+    max-width: 15%;
+    height: auto;
+    margin: 38px;
+    flex-shrink: 1;
+}
+
+.content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.content-3 blockquote {
+    max-width: 300px;
+}
+
+
+.content-4 {
+    background-color: #39603D;
+    color:#3C403D;
+    display: flex;
+    justify-content: center;
+}
+
+.content-4-items {
+    display:flex;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 38px;
+    border-radius: 20%;
+    background-color: #A3BCB6;
+}
+
+
+
+.footer {
+    display:flex;
+    flex-direction: row;    
+    gap: 24px;
+    list-style-type: none;
+    padding-left: 24px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #3C403D;
+}
